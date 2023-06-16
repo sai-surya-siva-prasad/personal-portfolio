@@ -20,7 +20,7 @@ const Home = () => {
             React, Tailwind, Next JS and GraphQL.
           </p>
 
-          <div>
+          <div className="flex space-x-4">
             <Link
               to="portfolio"
               smooth
@@ -32,6 +32,17 @@ const Home = () => {
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
             </Link>
+            <a
+              href="https://leetcode.com/Surya2316/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-green-500 to-blue-500 cursor-pointer"
+            >
+              Leetcode
+              <span className="group-hover:rotate-90 duration-300">
+                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+              </span>
+            </a>
           </div>
         </div>
 
