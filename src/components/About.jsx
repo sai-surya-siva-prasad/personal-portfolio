@@ -8,11 +8,19 @@ const About = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellat impedit excepturi, in fugiat voluptates blanditiis. Culpa nam adipisci necessitatibus facilis fugiat quos illum! Odit accusantium maiores possimus blanditiis reprehenderit doloremque, repudiandae alias placeat iusto magnam nesciunt cumque, voluptatem itaque impedit quibusdam! Libero facere labore veniam eaque accusamus, possimus obcaecati?
+          I am a Full Stack Developer with a passion for building beautiful and user-frienly websites. I have a strong understanding of both front end and 
+          back-end development, and I am exicited to put my skills to use in a professional setting.I am a quick learner and a team player, and I am confident 
+          that I can be a valuable asset to any wen development team.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit inventore hic laboriosam, dolor sed quas culpa aliquam. Minus ex officia beatae temporibus animi neque praesentium aliquam, laborum itaque. Iste sed saepe, sit libero, aliquid voluptatem dicta nobis ducimus dolores fugit explicabo excepturi dolor modi, iure nostrum dolorum debitis assumenda beatae!
+            Currently, I'm pursuing my Master's degree in Computer Science at Rutgers University, 
+            where I am focusing on developing my understanding of complex algorithms and enhancing 
+            my problem-solving skills.
+            Prior to this, I was a Full Stack Web Developer at Accenture. Here, I was part of a dynamic 
+            team where we built sophisticated healthcare products. My work mainly revolved around designing 
+            and implementing robust algorithms and crafting intuitive user interfaces, ensuring a smooth 
+            user experience
         </p>
       </div>
     </div>
