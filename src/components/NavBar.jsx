@@ -1,9 +1,35 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
+  const [visible, setVisible] = useState(true);
+
+  const handleScroll = () => {
+    const currentScrollPos = window.pageYOffset;
+    const scrollDown = prevScrollPos < currentScrollPos;
+
+    setPrevScrollPos(currentScrollPos);
+    setVisible(scrollDown);
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      const scrollDown = prevScrollPos < currentScrollPos;
+
+      setPrevScrollPos(currentScrollPos);
+      setVisible(scrollDown);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [prevScrollPos]); // Include handleScroll as a dependency
 
   const links = [
     {
@@ -29,7 +55,11 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
+    <div
+      className={`NavBar flex justify-between items-center w-full h-20 px-4 text-white bg-black ${
+        visible ? "" : "scroll-down"
+      }`}
+    >
       <div>
         <h1 className="text-5xl font-signature ml-2">Surya</h1>
       </div>

@@ -15,6 +15,28 @@
     opacity: 1;
   }
 }
+.Experience {
+  margin-top: 20px; /* Adjust the margin value as needed */
+}
+
+.Experience .card {
+  position: relative;
+  z-index: 1; /* Add z-index property */
+}
+.NavBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  transition: top 0.3s ease-in-out;
+}
+
+.NavBar.scroll-down {
+  top: -80px; /* Adjust the value to set the distance the navigation bar should move up */
+  z-index: -1; /* Set a lower z-index value to ensure the navigation bar appears below other elements */
+}
+
 @keyframes bounce {
   0% { transform: scale(1,1) translateY(0); }
   10% { transform: scale(1.1,.9) translateY(0); }
