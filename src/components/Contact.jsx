@@ -1,6 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Contact = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const isFormFilled = name && email && message;
+
+  const handleNameChange = (event) => {
+    setName(event.target.value);
+  };
+
+  const handleEmailChange = (event) => {
+    setEmail(event.target.value);
+  };
+
+  const handleMessageChange = (event) => {
+    setMessage(event.target.value);
+  };
+
   return (
     <div name="contact" className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white">
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
@@ -9,29 +27,42 @@ const Contact = () => {
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
         <div className="flex justify-center items-center">
-          <form action="https://getform.io/f/85346afe-c441-4310-a6eb-7eb7994c94be" method="POST"className="flex flex-col w-full md:w-1/2">
+          <form
+            action="https://getform.io/f/85346afe-c441-4310-a6eb-7eb7994c94be"
+            method="POST"
+            className="flex flex-col w-full md:w-1/2"
+          >
             <input
               type="text"
               name="name"
+              value={name}
+              onChange={handleNameChange}
               placeholder="Enter your name"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
               type="text"
               name="email"
+              value={email}
+              onChange={handleEmailChange}
               placeholder="Enter your email"
               className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <textarea
               name="message"
+              value={message}
+              onChange={handleMessageChange}
               placeholder="Say hi!"
               rows="10"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
-          
-          <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
-            Let's talk
-          </button>
+            <button
+              className={`text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 ${!isFormFilled && 'opacity-50 cursor-not-allowed'}`}
+              disabled={!isFormFilled}
+              title={!isFormFilled ? 'Please fill in all the details before submitting' : ''}
+            >
+              Let's talk
+            </button>
           </form>
         </div>
       </div>

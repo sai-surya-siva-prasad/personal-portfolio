@@ -2,6 +2,9 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { BsInstagram } from "react-icons/bs";
+
+
 
 const SocialLinks = () => {
   const links = [
@@ -44,6 +47,16 @@ const SocialLinks = () => {
       style: 'rounded-br-md',
       download: true,
     },
+    
+      {
+        id: 5,
+        child: (
+          <>
+            Instagram <BsInstagram size={30} />
+          </>
+        ),
+        href: 'https://instagram.com/r_saisurya_2316?igshid=MzNlNGNkZWQ4Mg==' ,
+      },
   ];
 
   return ( 
