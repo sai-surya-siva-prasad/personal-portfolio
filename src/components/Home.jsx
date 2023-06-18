@@ -1,8 +1,7 @@
 import React from "react";
-import heroImage from "../assets/heroImage.png";
+import twoImage from "../assets/twoImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
-
 
 const Home = () => {
   return (
@@ -12,11 +11,11 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white fade-in">
+          <h2 className="text-3xl sm:text-6xl font-bold text-white fade-in">
             Hi there! I'm Surya
           </h2>
           <p className="text-gray-500 py-4 max-w-md fade-in">
-            I am a Full Stack Web Developer based in New Brunswick,New Jersey.
+            I am a Full Stack Web Developer based in New Brunswick, New Jersey.
           </p>
           <div className="flex space-x-4">
             <Link
@@ -46,9 +45,9 @@ const Home = () => {
 
         <div>
           <img
-            src={heroImage}
+            src={twoImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-1/3 md:w-1/2"
           />
         </div>
       </div>
