@@ -21,7 +21,7 @@ const MySuperPortfolio = () => {
       id: 2,
       src: ChatGPT_Blog,
       title: 'ChatGPT Blog',
-      description: 'A blog discussing the capabilities of ChatGPT language model',
+      description: 'A blog allowing users to take help of to  chatGpt write the content',
       demoLink: 'https://example.com',
       codeLink: 'https://github.com/ttps://github.com/sai-surya-siva-prasad/-ChatGPT-Assisted-Blog-Content-Generator-'
     },
