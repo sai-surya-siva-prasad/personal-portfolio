@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles.css */
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.Experience {
+  margin-top: 20px; /* Adjust the margin value as needed */
+}
+
+.Experience .card {
+  position: relative;
+  z-index: 1; /* Add z-index property */
+}
+.NavBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  transition: top 0.3s ease-in-out;
+}
+
+.NavBar.scroll-down {
+  top: -80px; /* Adjust the value to set the distance the navigation bar should move up */
+  z-index: -1; /* Set a lower z-index value to ensure the navigation bar appears below other elements */
+}
+
+@keyframes bounce {
+  0% { transform: scale(1,1) translateY(0); }
+  10% { transform: scale(1.1,.9) translateY(0); }
+  30% { transform: scale(.9,1.1) translateY(-20px); }
+  50% { transform: scale(1.05,.95) translateY(0); }
+  57% { transform: scale(1,1) translateY(-7px); }
+  64% { transform: scale(1,1) translateY(0); }
+  100% { transform: scale(1,1) translateY(0); }
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;  /* reduced size */
+  height: 20px; /* reduced size */
+  margin-right: 10px; /* added margin */
+}
+
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px; /* adjusted size */
+  width: 16px;  /* adjusted size */
+  left: 2px;    /* adjusted size */
+  bottom: 2px;  /* adjusted size */
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #4CAF50; /* changed color to green */
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px); /* adjusted size */
+  -ms-transform: translateX(20px); /* adjusted size */
+  transform: translateX(20px); /* adjusted size */
+}
+
+.slider.round {
+  border-radius: 20px; /* adjusted size */
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+.fade-in {
+  animation: fadeIn 2s ease-out;
+}
+
+.button-grow:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+@layer base{
+  html{
+    font-family: 'Raleway',sans-serif;
+  }
+}
