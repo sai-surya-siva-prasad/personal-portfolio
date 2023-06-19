@@ -15,15 +15,15 @@ const MySuperPortfolio = () => {
       title: 'E-commerce Website',
       description: 'An online store built with React and Node.js',
       demoLink: 'https://example.com',
-      codeLink: 'hhttps://github.com/sai-surya-siva-prasad/e-commerce-website'
+      codeLink: 'https://github.com/sai-surya-siva-prasad/e-commerce-website'
     },
     {
       id: 2,
       src: ChatGPT_Blog,
       title: 'ChatGPT Blog',
-      description: 'A blog allowing users to take help of chatGpt write the content',
+      description: 'A blog allowing users to take help of ChatGPT to write the content',
       demoLink: 'https://example.com',
-      codeLink: 'https://github.com/ttps://github.com/sai-surya-siva-prasad/-ChatGPT-Assisted-Blog-Content-Generator-'
+      codeLink: 'https://github.com/sai-surya-siva-prasad/-ChatGPT-Assisted-Blog-Content-Generator-'
     },
     {
       id: 3,
@@ -59,12 +59,14 @@ const MySuperPortfolio = () => {
     }
   ];
 
-
-
   const [isFlipped, setIsFlipped] = useState({});
 
   const handleButtonClick = (link) => {
-    window.open(link, '_blank');
+    if (link === 'https://example.com') {
+      alert('Coming soon!');
+    } else {
+      window.open(link, '_blank');
+    }
   };
 
   const handleFlip = (id) => {
