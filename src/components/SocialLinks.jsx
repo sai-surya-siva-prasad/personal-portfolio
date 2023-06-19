@@ -15,7 +15,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: 'http://linkedin.com',
+      href: 'https://www.linkedin.com/in/siyasurya/',
       style: 'rounded-tr-md',
     },
     {
@@ -25,7 +25,7 @@ const SocialLinks = () => {
           Github <FaGithub size={30} />
         </>
       ),
-      href: 'http://github.com',
+      href: 'https://github.com/sai-surya-siva-prasad.com',
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: 'mailto:foo@gmail.com',
+      href: 'suryaraghavarapu@gmail.com',
     },
     {
       id: 4,
