@@ -25,7 +25,7 @@ const SocialLinks = () => {
           Github <FaGithub size={30} />
         </>
       ),
-      href: 'https://github.com/sai-surya-siva-prasad.com',
+      href: 'https://github.com/sai-surya-siva-prasad',
     },
     {
       id: 3,
