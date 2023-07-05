@@ -10,14 +10,14 @@ import personalPortfolio from '../assets/portfolio/personalPortfolio.png';
 
 const MySuperPortfolio = () => {
   const portfolios = [
-    //  {
-    //   id: 1,
-    //   src: ChatGPT_Blog,
-    //   title: 'ChatGPT Blog',
-    //   description: 'A blog allowing users to take help of ChatGPT to write the content',
-    //   demoLink: 'https://gpt-powered-blog-app.vercel.app/',
-    //   codeLink: 'https://github.com/sai-surya-siva-prasad/gpt-powered-blog-app'
-    // },
+     {
+      id: 1,
+      src: ChatGPT_Blog,
+      title: 'ChatGPT Blog',
+      description: 'A blog allowing users to take help of ChatGPT to write the content',
+      demoLink: 'https://gpt-powered-blog-app.vercel.app/',
+      codeLink: 'https://github.com/sai-surya-siva-prasad/gpt-powered-blog-app'
+    },
     {
       id: 2,
       src: car_rental,
