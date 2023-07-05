@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
 import Ecommerce from '../assets/portfolio/Ecommerce.png';
 import ChatGPT_Blog from '../assets/portfolio/ChatGPT_Blog.png';
+import car_rental from '../assets/portfolio/car_rental.png';
 import Fitness_app from '../assets/portfolio/Fitness_app.png';
 import chatGpt from '../assets/portfolio/chatGpt.png';
 import socialMedia from '../assets/portfolio/socialMedia.png';
@@ -19,10 +20,10 @@ const MySuperPortfolio = () => {
     },
     {
       id: 2,
-      src: Ecommerce,
-      title: 'E-commerce Website',
-      description: 'An online store built with React and Node.js',
-      demoLink: 'https://example.com',
+      src: car_rental,
+      title: 'car Rental Website',
+      description: 'Streamline your car rental experience with our effortless booking process.',
+      demoLink: 'https://cars-showcase-ftmk.vercel.app/',
       codeLink: 'https://github.com/sai-surya-siva-prasad/e-commerce-website'
     },
    
