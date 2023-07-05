@@ -32,7 +32,7 @@ const MySuperPortfolio = () => {
       title: 'Social_Media',
       description: 'social media app that lets you post the pics',
       demoLink: 'https://sharemejsm.netlify.app/login',
-      codeLink: 'https://github.com/sai-surya-siva-prasad/AI-BOT-in-chat-application'
+      codeLink: 'https://github.com/sai-surya-siva-prasad/social_media'
     },
     {
       id: 4,
