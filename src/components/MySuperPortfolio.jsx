@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
-import Ecommerce from '../assets/portfolio/Ecommerce.png';
 import ChatGPT_Blog from '../assets/portfolio/ChatGPT_Blog.png';
 import car_rental from '../assets/portfolio/car_rental.png';
 import Fitness_app from '../assets/portfolio/Fitness_app.png';
