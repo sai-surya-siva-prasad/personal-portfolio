@@ -23,7 +23,7 @@ const MySuperPortfolio = () => {
       title: 'car Rental Website',
       description: 'Streamline your car rental experience with our effortless booking process.',
       demoLink: 'https://cars-showcase-ftmk.vercel.app/',
-      codeLink: 'https://github.com/sai-surya-siva-prasad/e-commerce-website'
+      codeLink: 'https://github.com/sai-surya-siva-prasad/car_showcase'
     },
    
     {
