@@ -23,7 +23,7 @@ const MySuperPortfolio = () => {
       title: 'car Rental Website',
       description: 'Streamline your car rental experience with our effortless booking process.',
       demoLink: 'https://cars-showcase-ftmk.vercel.app/',
-      codeLink: 'https://sharemejsm.netlify.app/login'
+      codeLink: 'https://github.com/sai-surya-siva-prasad/car_showcase'
     },
    
     {
@@ -31,8 +31,8 @@ const MySuperPortfolio = () => {
       src: Social_Media,
       title: 'Social_Media',
       description: 'social media app that lets you post the pics',
-      demoLink: 'https://example.com',
-      codeLink: 'https://sharemejsm.netlify.app/login'
+      demoLink: 'https://sharemejsm.netlify.app/login',
+      codeLink: 'https://github.com/sai-surya-siva-prasad/AI-BOT-in-chat-application'
     },
     {
       id: 4,
