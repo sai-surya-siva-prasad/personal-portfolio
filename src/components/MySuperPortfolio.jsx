@@ -23,16 +23,16 @@ const MySuperPortfolio = () => {
       title: 'car Rental Website',
       description: 'Streamline your car rental experience with our effortless booking process.',
       demoLink: 'https://cars-showcase-ftmk.vercel.app/',
-      codeLink: 'https://github.com/sai-surya-siva-prasad/car_showcase'
+      codeLink: 'https://sharemejsm.netlify.app/login'
     },
    
     {
       id: 3,
-      src: Fitness_app,
-      title: 'Fitness App',
-      description: 'A mobile app to track fitness activities and goals',
+      src: Social_Media,
+      title: 'Social_Media',
+      description: 'social media app that lets you post the pics',
       demoLink: 'https://example.com',
-      codeLink: 'https://github.com/sai-surya-siva-prasad/Fitness-app'
+      codeLink: 'https://sharemejsm.netlify.app/login'
     },
     {
       id: 4,
