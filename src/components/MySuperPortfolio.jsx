@@ -4,7 +4,7 @@ import ChatGPT_Blog from '../assets/portfolio/ChatGPT_Blog.png';
 import car_rental from '../assets/portfolio/car_rental.png';
 import chatGpt from '../assets/portfolio/chatGpt.png';
 import socialMedia from '../assets/portfolio/socialMedia.png';
-import Social_Media from ../assets/portfolio/Social_Media.png';
+import Social_Media from '../assets/portfolio/Social_Media.png';
 import personalPortfolio from '../assets/portfolio/personalPortfolio.png';
 
 const MySuperPortfolio = () => {
