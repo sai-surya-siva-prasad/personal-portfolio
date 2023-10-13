@@ -17,7 +17,7 @@ const About = () => {
             Currently, I'm pursuing my Master's degree in Computer Science at Rutgers University, 
             where I am focusing on developing my understanding of complex algorithms and enhancing 
             my problem-solving skills.
-            Prior to this, I was a Full Stack Web Developer at Accenture. Here, I was part of a dynamic 
+            Prior to this, I was a Full Stack Web Developer at Microsoft. Here, I was part of a dynamic 
             team where we built sophisticated healthcare products. My work mainly revolved around designing 
             and implementing robust algorithms and crafting intuitive user interfaces, ensuring a smooth 
             user experience
