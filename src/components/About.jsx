@@ -8,19 +8,15 @@ const About = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
         </div>
         <p>
-          I am a Full Stack Developer with a passion for building beautiful and user-frienly websites. I have a strong understanding of both front end and 
-          back-end development, and I am exicited to put my skills to use in a professional setting.I am a quick learner and a team player, and I am confident 
-          that I can be a valuable asset to any wen development team.
+      Surya Raghavarapu is a dedicated and innovative full stack developer with a strong foundation in computer science, holding a Master's degree from Rutgers University and a Bachelor's degree from Amrita University. Surya has a proven track record of delivering high-impact solutions in various domains, including mental health, cloud services, and enterprise applications.
         </p>
         <br />
+          <p className="text-xl">
+          Surya excels in both front-end and back-end development, proficient in languages and technologies such as Java, Python, JavaScript (ES6), Typescript, HTML, and CSS. His expertise extends to frameworks like React, Next.js, Spring Boot, and Django, as well as database management systems including MySQL, PostgreSQL, and MongoDB. Surya is also skilled in using cloud platforms like Microsoft Azure, and has hands-on experience with tools and frameworks such as Docker, Kubernetes, and Git.
+        
+        </p>
         <p className="text-xl">
-            Currently, I'm pursuing my Master's degree in Computer Science at Rutgers University, 
-            where I am focusing on developing my understanding of complex algorithms and enhancing 
-            my problem-solving skills.
-            Prior to this, I was a Full Stack Web Developer at Accenture. Here, I was part of a dynamic 
-            team where we built sophisticated healthcare products. My work mainly revolved around designing 
-            and implementing robust algorithms and crafting intuitive user interfaces, ensuring a smooth 
-            user experience
+          Throughout his career, Surya has worked with industry leaders like Microsoft and Accenture, as well as innovative startups like Zant. At Zant, he developed an AI-powered Mental Health Assistant and optimized the backend infrastructure, significantly improving client satisfaction and system performance. At Microsoft, he enhanced Azure PostgreSQL performance and implemented robust cloud services, increasing reliability and reducing latency. As a Senior Analyst at Accenture, Surya developed high-performance Java backend services and engineered responsive front-end applications, consistently improving user experience and system efficiency.
         </p>
       </div>
     </div>
